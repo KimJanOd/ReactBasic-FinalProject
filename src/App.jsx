@@ -1,4 +1,3 @@
-// src/App.jsx
 import { useState } from 'react';
 import { Box, Container } from '@chakra-ui/react';
 import { RecipeListPage } from './pages/RecipeListPage';
@@ -12,7 +11,6 @@ export const App = () => {
 
   return (
     <Box bg="gray.50" minH="100vh" py={6}>
-      {/* Centered white container */}
       <Container maxW="container.lg" px={[4, 6]}>
         {selectedRecipe ? (
           <RecipePage

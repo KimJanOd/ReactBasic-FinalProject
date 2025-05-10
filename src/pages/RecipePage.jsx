@@ -1,4 +1,3 @@
-// src/pages/RecipePage.jsx
 import {
   Box,
   Heading,
